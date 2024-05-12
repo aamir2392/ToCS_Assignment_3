@@ -42,6 +42,6 @@ print("\nHollow Pyramid:")
 print_hollow_pyramid(rows)
 
 print()
-print("<---------- Printing the inverted pyramid again to ensure CICD ---------->")
+print("<---------- Printing the inverted pyramid again to ensure CI-CD ---------->")
 print("\nInverted Pyramid:")
 print_inverted_pyramid(rows)
