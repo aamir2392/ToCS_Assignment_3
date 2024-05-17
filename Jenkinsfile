@@ -10,7 +10,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'echo Building the application'
-                sh 'python sample.py'
+          #      sh 'python sample.py'
             }
         }
     }
