@@ -9,8 +9,8 @@ pipeline {
         }
         stage('Build') {
             steps {
-                bat 'echo Building the application'
-                bat 'python sample.py'
+                sh 'echo Building the application'
+                sh 'python sample.py'
             }
         }
     }
