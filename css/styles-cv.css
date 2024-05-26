@@ -1,31 +1,4 @@
 
-.navbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #57ACAF
-; 
-  width: 100%;
-  top: 0;
-  z-index: 1000;
-}
-
-.navbar li {
-  float: right;
-}
-
-.navbar li a {
-  display: block;
-  color: #fff; /* Set the text color to white */
-  text-align: center;
-  padding: 8px 20px;
-  text-decoration: none;
-}
-
-.navbar li a:hover {
-  background-color: #E7F3F3; /* Optional: Add a darker background on hover */
-}
 
 .top-container {
   padding-top: 50px; /* Add padding to avoid content hiding behind the navbar */
