@@ -4,8 +4,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #000; /* Set the background color to black */
-  position: fixed;
+  background-color: #000; 
   width: 100%;
   top: 0;
   z-index: 1000;
