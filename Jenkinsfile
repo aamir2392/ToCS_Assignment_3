@@ -11,7 +11,7 @@ pipeline {
             steps {
                 sh 'echo Building the application'
                 sh '''
-                gcloud compute scp /var/lib/jenkins/workspace/multiPipeline_main/index.html root@apache-server:/var/www/html --zone=us-central1-a
+                gcloud compute scp /var/lib/jenkins/workspace/multiPipeline_main/ root@apache-server:/var/www/html --zone=us-central1-a
                 '''
             }
         }
