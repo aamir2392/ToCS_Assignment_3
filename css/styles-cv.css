@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #000; 
+  background-color: #10898d; 
   width: 100%;
   top: 0;
   z-index: 1000;
@@ -27,7 +27,7 @@
 }
 
 .top-container {
-  padding-top: 50px; /* Add padding to avoid content hiding behind the navbar */
+  padding-top: 30px; /* Add padding to avoid content hiding behind the navbar */
 }
 
 /* Your existing styles */
