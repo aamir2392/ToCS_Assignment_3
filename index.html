@@ -11,14 +11,39 @@
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
+<style>
+  
+		.navbar{
+			background: #3FA0A3; font-family: calibri; padding-right: 5px;padding-left: 15px;
+		}
+		.navdiv{
+			display: flex; align-items: center; justify-content: space-between;
+		}
+		.logo a{
+			font-size: 30px; font-weight: 600; color: white;
+		}
+		li{
+			list-style: none; display: inline-block;
+		}
+		li a{
+			color: white; font-size: 18px; font-weight: bold; margin-right: 25px; text-decoration: none;
+
+		}
+		
+</style>
+
 <body>
-  <nav>
-    <ul class="navbar">
-      <li><a href="drumkit.html">DrumKit</a></li>
-      <li><a href="tindog.html">TinDog</a></li>
-      <li><a href="#contact">Contact Me</a></li>
-    </ul>
-  </nav>
+  <nav class="navbar">
+		<div class="navdiv">
+			<div class="logo"><a href="#">Aamir</a> </div>
+			<ul>
+				<li><a href="tindog.html">tindog</a></li>
+				<li><a href="drumkit.html">Drumkit</a></li>
+				<li><a href="#contact">Contact Me</a></li>
+				
+			</ul>
+		</div>
+	</nav>
 
   <div class="top-container">
     <img class="top-cloud" src="images/cloud.png" alt="cloud-image">
