@@ -11,14 +11,14 @@
 }
 
 .navbar li {
-  float: left;
+  float: right;
 }
 
 .navbar li a {
   display: block;
   color: #fff; /* Set the text color to white */
   text-align: center;
-  padding: 14px 20px;
+  padding: 8px 20px;
   text-decoration: none;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .top-container {
-  padding-top: 30px; /* Add padding to avoid content hiding behind the navbar */
+  padding-top: 50px; /* Add padding to avoid content hiding behind the navbar */
 }
 
 /* Your existing styles */
